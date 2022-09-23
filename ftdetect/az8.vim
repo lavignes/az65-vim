@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.az6 set filetype=az6
+autocmd BufNewFile,BufRead *.az8 set filetype=az8
