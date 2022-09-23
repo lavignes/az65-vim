@@ -44,6 +44,8 @@ syn match az6PreProc	"@string"
 syn match az6PreProc	"@label"
 syn match az6PreProc	"@hex"
 syn match az6PreProc	"@bin"
+syn match az6PreProc	"@parse"
+syn match az6PreProc	"@segment"
 syn match az6Include	"@include"
 syn match az6Include	"@incbin"
 
