@@ -7,7 +7,7 @@ syn keyword z80Inst daa dec di djnz ei ex exx halt im in
 syn keyword z80Inst inc ind ini indr inir jp jr ld ldd lddr ldi ldir
 syn keyword z80Inst neg nop or otdr otir out outd outi push pop
 syn keyword z80Inst res ret reti retn rl rla rlc rlca rld
-syn keyword z80Inst rr rra rrc rrca rrd rst sbc scf set sl1 sla slia sll sra
+syn keyword z80Inst rr rra rrc rrca rrd rst sbc scf set sla sll sra
 syn keyword z80Inst srl sub xor
 
 " Grab the condition too
