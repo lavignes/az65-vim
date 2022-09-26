@@ -79,6 +79,8 @@ syn match z80PreProc	"@\+parse"
 syn match z80PreProc	"@\+segment"
 syn match z80PreProc	"@\+include"
 syn match z80PreProc	"@\+incbin"
+syn match z80PreProc    "@\+if"
+syn match z80PreProc    "@\+endif"
 
 " Strings
 syn region z80String start=/"/ skip=/\\./ end=/"/

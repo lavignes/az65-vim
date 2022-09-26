@@ -55,6 +55,8 @@ syn match gbz80PreProc	"@\+parse"
 syn match gbz80PreProc	"@\+segment"
 syn match gbz80PreProc	"@\+include"
 syn match gbz80PreProc	"@\+incbin"
+syn match gbz80PreProc	"@\+if"
+syn match gbz80PreProc	"@\+endif"
 
 " Strings
 syn region gbz80String start=/"/ skip=/\\./ end=/"/
