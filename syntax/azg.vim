@@ -2,11 +2,11 @@ syn case ignore
 syn sync fromstart
 
 " Common Z80 Assembly instructions
-syn keyword gbz80Inst adc add and bit call ccf cp
+syn keyword gbz80Inst adc add and bit call ccf cp cpl
 syn keyword gbz80Inst daa dec di djnz ei halt stop
-syn keyword gbz80Inst inc jp jr ld ldh 
+syn keyword gbz80Inst inc jp jr ld ldh
 syn keyword gbz80Inst nop or push pop
-syn keyword gbz80Inst res ret reti rl rla rlc rlca 
+syn keyword gbz80Inst res ret reti rl rla rlc rlca
 syn keyword gbz80Inst rr rra rrc rrca rst sbc scf set sla sra swap
 syn keyword gbz80Inst srl sub xor
 
@@ -17,8 +17,8 @@ syn match gbz80Inst "\s\+call\s\+n\=[cz]\>" "Match Z C NZ NC
 syn match gbz80Inst "\s\+ret\s\+n\=[cz]\>" "Match Z C NZ NC
 
 " Registers
-syn keyword gbz80Reg af af' bc de hl
-syn keyword gbz80Reg sp a b c d e f h i l r
+syn keyword gbz80Reg af bc de hl
+syn keyword gbz80Reg sp a b c d e f h l
 
 " PreProcessor commands
 syn match gbz80PreProc	"@\+[0-9]\+"
